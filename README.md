@@ -1,4 +1,4 @@
-# EntityFramework
+# Entity Framework Core
 Sample API app to learn Entity framework
 
 ## Steps to work with entity framework
