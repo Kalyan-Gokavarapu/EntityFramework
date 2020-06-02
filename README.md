@@ -58,3 +58,7 @@ Check out `Dapper` a micro-ORM
 -  Easy to work for SQL developers<br/>
 -  More control
 -  Designed for loose coupling
+Well Dapper uses connection.execute for insert/update/delete
+For which we can still stick to EF
+
+Enjoy :+1: 
