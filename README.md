@@ -39,17 +39,17 @@ Sample API app to learn Entity framework
 Well suited for smaller databases
 
 ## Best Practices
-Ensure Models are annotated to specify the exact data type.
-Failing to do so might result in db optimization issues.
-<br/>
-Ex: 
-Model property|Default Db type
------|-------------------
-string|NVARCHAR(MAX)
-<br/>
-Don't call C# methods within the query
-Don't use .Include() within the query
-Review EF changes all the time
+1. Ensure Models are annotated to specify the exact data type.<br/>
+   Failing to do so might result in db optimization issues.
+   <br/>
+   Ex: 
+   Model property|Default Db type
+   -----|-------------------
+   string|NVARCHAR(MAX)
+   <br/>
+1. Don't call C# methods within the query
+1. Don't use .Include() within the query
+1. Review EF changes all the time
 
 ## Where to from here ?
 Check out `Dapper` a micro-ORM
