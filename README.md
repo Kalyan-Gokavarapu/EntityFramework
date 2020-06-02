@@ -60,7 +60,9 @@ Check out `Dapper` a micro-ORM
 -  Designed for loose coupling
 
 Well, Dapper uses connection.execute for insert/update/delete <br/>
-for which we can still stick to EF
+for which we can still stick to EF<br/>
+We can also use Dapper.Contrib to fix the C# part but it still uses exec sp_executesql
+
 
 <br/>
 <br/>
