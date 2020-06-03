@@ -35,8 +35,8 @@ D:\Projects\GitRepo\EntityFramework\bin\Debug\netcoreapp3.1\EntityFramework.runt
 D:\Projects\GitRepo\EntityFramework\bin\Debug\netcoreapp3.1\EntityFramework.dll
 D:\Projects\GitRepo\EntityFramework\bin\Debug\netcoreapp3.1\EntityFramework.pdb
 D:\Projects\GitRepo\EntityFramework\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-D:\Projects\GitRepo\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.csproj.CoreCompileInputs.cache
-D:\Projects\GitRepo\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\GitRepo\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.dll
 D:\Projects\GitRepo\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.pdb
 D:\Projects\GitRepo\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.genruntimeconfig.cache
+D:\Projects\GitRepo\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.csproj.CoreCompileInputs.cache
+D:\Projects\GitRepo\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.MvcApplicationPartsAssemblyInfo.cache
