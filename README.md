@@ -5,6 +5,18 @@ Sample API app to learn Entity framework
 1. Identify and create models
 1. Create a DataContext class, specify the `DbSet<T>`
     * Add Microsoft.EntityFramework.Core nuget package
+    ``` C#
+     public class PatientContext : DbContext
+    {
+        public PatientContext(DbContextOptions options) : base(options) { }
+
+        public DbSet<Patient> Patients { get; set; }
+        public DbSet<Exam> Exams { get; set; }
+        public DbSet<Address> Address { get; set; }
+        public DbSet<Email> Email { get; set; }
+
+    }
+    ```
 1. Install all other required nuget packages
     * Microsoft.EntityFrameworkCore.SqlServer -- for SqlServer
     * Npgsql.EntityFrameworkCore.PostgreSQL -- for Pastgres
@@ -13,6 +25,18 @@ Sample API app to learn Entity framework
 1. Configure EntityFramework
     * Add connection string in `appsettings.json`
     * `services.AddDbContext<T>`(options =>... provide the connection string);
+    ``` C#
+    public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllers();
+            //Adding DbContext
+            //Configuring it with the connetion string
+            services.AddDbContext<PatientContext>(options =>
+            {
+                options.UseNpgsql(Configuration.GetConnectionString("DefaultDbConnection"));
+            });
+        }
+    ```
 1. Add migration scripts using Package Manager console
     * `Add-Migration InitialDBCreation`
 1. Create/Update the database using Package Manager console
