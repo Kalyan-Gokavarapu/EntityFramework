@@ -37,8 +37,9 @@ Sample API app to learn Entity framework
             });
         }
     ```
-1. Add migration scripts using Package Manager console
+1. Add migration scripts using Package Manager console    
     * `Add-Migration InitialDBCreation`
+      ###### View > Other Windows > Package Manager Console
 1. Create/Update the database using Package Manager console
     * `Update-Database`
 1. Annotate the properties in the models
