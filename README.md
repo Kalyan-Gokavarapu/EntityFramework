@@ -10,8 +10,8 @@ Sample API app to learn Entity framework
     {
         public PatientContext(DbContextOptions options) : base(options) { }
 
-        public DbSet<Patient> Patients { get; set; }
-        public DbSet<Exam> Exams { get; set; }
+        public DbSet<Patient> Patient { get; set; }
+        public DbSet<Exam> Exam { get; set; }
         public DbSet<Address> Address { get; set; }
         public DbSet<Email> Email { get; set; }
 
