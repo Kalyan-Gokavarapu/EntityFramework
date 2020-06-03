@@ -6,7 +6,8 @@ Sample API app to learn Entity framework
 1. Create a DataContext class, specify the `DbSet<T>`
     * Add Microsoft.EntityFramework.Core nuget package
 1. Install all other required nuget packages
-    * Microsoft.EntityFrameworkCore.SqlServer
+    * Microsoft.EntityFrameworkCore.SqlServer -- for SqlServer
+    * Npgsql.EntityFrameworkCore.PostgreSQL -- for Pastgres
     * Microsoft.EntityFrameworkCore.Tools (Tools for nuget package mgr console in Visual Studio)
     <br/>This allows us to add migration
 1. Configure EntityFramework
