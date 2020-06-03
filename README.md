@@ -40,6 +40,16 @@ Sample API app to learn Entity framework
 1. Add migration scripts using Package Manager console    
     * `Add-Migration InitialDBCreation`
       ###### View > Other Windows > Package Manager Console
+    * If you wish to create a database if it doesn't exist
+    ``` C#
+    //Pass PatientContext
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env, PatientContext db)
+        {
+            ...
+            // create db if doesn't exist
+            db.Database.EnsureCreated();
+            ...
+    ```
 1. Create/Update the database using Package Manager console
     * `Update-Database`
 1. Annotate the properties in the models
