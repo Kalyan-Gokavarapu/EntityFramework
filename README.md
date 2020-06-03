@@ -4,6 +4,7 @@ Sample API app to learn Entity framework
 ## Steps to work with entity framework
 1. Identify and create models
 1. Create a DataContext class, specify the `DbSet<T>`
+    * Add Microsoft.EntityFramework.Core nuget package
 1. Configure EntityFramework
     * Add connection string in `appsettings.json`
     * `services.AddDbContext<T>`(options =>... provide the connection string);
